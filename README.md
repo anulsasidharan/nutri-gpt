@@ -27,8 +27,6 @@ nutri‑gpt/
 │    ├─ config.py        ← loads environment (API key, model defaults)
 │    ├─ image_utils.py   ← image loading/encoding utilities
 │    ├─ openai_client.py ← wrapper for OpenAI vision/chat calls
-│    ├─ schema.py        ← Pydantic models for FoodItem / NutritionPrediction
-│    └─ nutrition_model.py← parsing logic + nutrition lookup
 └─ tests/                ← (optional) unit tests for parsing logic
 ```
 
