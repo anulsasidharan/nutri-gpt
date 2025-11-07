@@ -7,9 +7,8 @@ Ideal for prototyping visual food recognition, nutrition analytics and AI‑assi
 
 ## 🚀 Features
 - Upload an image of a meal (via `app.py`) → prompt the OpenAI model with a structured “food recognition” request.  
-- Parses the model’s response into structured nutrition data (food items, serving sizes, calories, macronutrients).  
-- Displays detected items, allows manual corrections of calorie/protein values, and exports results as JSON.  
-- Lightweight architecture with modular Python code (client wrapper, image utilities, nutrition lookup, parsing logic).  
+- Displays detected items.  
+- Lightweight architecture with modular Python code (client wrapper, image utilities).  
 - Built with Streamlit for quick UI deployment.
 
 ---
@@ -51,7 +50,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### 4. Upload a food image → view detections → edit values → export JSON  
+### 4. Upload a food image → view detections 
 The UI guides you through uploading a picture, sending the prompt, viewing the model output.
 ---
 
