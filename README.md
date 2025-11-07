@@ -59,9 +59,8 @@ The UI guides you through uploading a picture, sending the prompt, viewing the m
 
 1. The user uploads an image via the Streamlit UI.  
 2. `openai_client.OpenAIVisionClient` encodes the image (base64) and sends a prompt to the OpenAI model with “food recognition” instructions.  
-3. The raw response (JSON, list or text) is parsed by `nutrition_model.parse_openai_response_to_prediction()` into typed objects (`FoodItem`, `NutritionPrediction`).  
-4. A simple local lookup table maps known food items to default calorie/macros. Unknown items are flagged for manual edit.  
-5. The UI displays detected items + estimated totals, allows edits, and lets the user export the cleaned result.
+3. The response generated from the LLM will be given back to the streamlit app to display in the webui. 
+4. The UI displays Typical Ingredients, Nutritional Profile, Advantages and Disadvantages.
 
 
 
