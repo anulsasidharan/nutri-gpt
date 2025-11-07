@@ -3,7 +3,6 @@ OpenAI Vision client wrapper.
 
 Provides:
 - OpenAIVisionClient: class that encapsulates calling a chat + image completion
-  using the `openai` client used in the notebook (OpenAI(...)).
 """
 
 from typing import Any, Dict
